@@ -1,0 +1,33 @@
+{
+  "name": "tcs-security-plugin1",
+  "version": "1.0.0",
+  "description": "Consolidated AWS AI-DLC plugin with selective routing, standalone Architect and DevSecOps agents, and real Checkov/TFSec Terraform validation.",
+  "agents": [
+    {
+      "name": "aidlc-architect",
+      "path": "./agents/aidlc-architect-agent.md",
+      "description": "Standalone Architect Agent for architecture design, DDD patterns, and ADRs."
+    },
+    {
+      "name": "aidlc-devsecops",
+      "path": "./agents/aidlc-devsecops-agent.md",
+      "description": "Standalone DevSecOps Agent for security reviews and real Checkov/TFSec Terraform scans."
+    }
+  ],
+  "skills": [
+    {
+      "name": "tcs-security",
+      "path": "./skills/aidlc/SKILL.md",
+      "description": "Full multi-phase AI-DLC workflow triggered via /tcs security or end-to-end lifecycle requests."
+    },
+    {
+      "name": "tcs-iac-v1-2",
+      "path": "./skills/tcs-iac-v1-2/SKILL.md",
+      "description": "Terraform security scanning using real Checkov and TFSec executions with zero mock data."
+    }
+  ],
+  "rules": [
+    "./AGENTS.md",
+    "./rules/review-guardrails.md"
+  ]
+}
