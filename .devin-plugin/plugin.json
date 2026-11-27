@@ -1,8 +1,6 @@
 {
   "name": "tcs-security-plugin1",
-  "version": "1.0.0",
-  "description": "Consolidated AWS AI-DLC plugin with selective routing, standalone Architect and DevSecOps agents, and real Checkov/TFSec Terraform validation.",
-  "skills": [
-    "skills"
-  ]
+  "version": "1.0.1",
+  "description": "AWS AI-DLC plugin with selective routing, standalone Architect and DevSecOps agents, and real Checkov/TFSec Terraform validation.",
+  "repository": "https://github.com/VijayKumar030/plugin.git"
 }
